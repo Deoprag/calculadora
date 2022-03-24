@@ -58,3 +58,16 @@ input {
 div#res1, div#res2, div#res3, div#res4{
     color: white;
 }
+
+@media screen and (max-width: 768px){
+    .main-block{
+        max-width: 400px;
+        width: 100%;
+        font-size: 14pt;
+    }
+
+    header{
+        max-width: 400px;
+        width: 100%;
+    }
+}
