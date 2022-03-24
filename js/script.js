@@ -26,7 +26,7 @@
             var n1multiply = Number(tn1multiply.value);
             var n2multiply = Number(tn2multiply.value);
             var smultiply = n1multiply * n2multiply;
-            res3.innerHTML = `${n1multiply} times ${n2multiply}| is equal to <strong>|${smultiply}|<strong>`;
+            res3.innerHTML = `${n1multiply} times ${n2multiply} is equal to <strong>|${smultiply}|<strong>`;
         } // This block calcs multiplication
 
         function divide(){

@@ -1,14 +1,14 @@
 body{
     font: normal 18pt Lato;
     text-align: center;
-    background-image: linear-gradient(to right, rgb(11, 5, 97), rgb(17, 19, 148), rgb(11, 5, 97));
+    background-image: url(../assets/black_background2.jpg);
     color: rgb(255, 255, 255);
     display: block;
 }
 
 header{
-    background-image: linear-gradient(145deg, rgb(48, 48, 48), rgb(90, 90, 90), rgb(48, 48, 48));
-    border: 2px solid black;
+    background-image: linear-gradient(145deg, rgb(48, 48, 48, 0.8), rgb(90, 90, 90, 0.8), rgb(48, 48, 48, 0.8));
+    border: 3px solid white;
     max-width: 550px;
     width: 100%;
     margin: 0 auto;
@@ -24,12 +24,12 @@ header p{
 }
 
 .main-block{
-    background-image: linear-gradient(145deg, rgb(48, 48, 48), rgb(90, 90, 90), rgb(48, 48, 48));
+    background-image: linear-gradient(145deg, rgb(48, 48, 48, 0.8), rgb(90, 90, 90, 0.8), rgb(48, 48, 48, 0.8));
     max-width: 550px;
     width: 100%;
     margin: 0 auto;
     padding: 20px 0;
-    border: 2px solid black;
+    border: 3px solid white;
 }
 
 .mainblock h1{
@@ -41,11 +41,13 @@ input {
     width: 120px;
     font-size: 14px;
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: rgb(153, 153, 153);
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
 }
 
 
 div#res1, div#res2, div#res3, div#res4{
-    color: #ccc;
+    color: white;
 }
