@@ -97,9 +97,10 @@ footer a{
         font-size: 12px;
     }
 
-    .input {
+    input{
         font-size: 14px;
         width: 85px;
+        height: 28px;
     }
 
 
@@ -126,6 +127,8 @@ footer a{
     input{
         font-size: 12px;
         width: 70px;
+        height: 20px;
+        border-radius: 6px;
     }
 
     header p{
