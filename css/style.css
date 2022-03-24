@@ -12,6 +12,8 @@ header{
     max-width: 550px;
     width: 100%;
     margin: 0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 header h1{
@@ -30,6 +32,8 @@ header p{
     margin: 0 auto;
     padding: 20px 0;
     border: 3px solid white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .mainblock h1{
