@@ -71,6 +71,11 @@ footer{
     font-style: italic;
 }
 
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
 @media screen and (max-width: 1250px){
     header{
         width: 50%;
