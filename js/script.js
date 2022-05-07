@@ -6,8 +6,8 @@
             var n1plus = Number(tn1plus.value);
             var n2plus = Number(tn2plus.value);
             var splus = n1plus + n2plus ;
-            res1.innerHTML = `${n1plus} plus ${n2plus} is equal to: <strong>[${splus}]<strong>`;
-        } // This block calculates addition
+            res1.innerHTML = `${n1plus} + ${n2plus} = <strong>[${splus}]<strong>`;
+        } // Adição
 
         function less(){
             var tn1less = window.document.querySelector('input#txtn1-less');
@@ -16,8 +16,8 @@
             var n1less = Number(tn1less.value);
             var n2less = Number(tn2less.value);
             var sless = n1less - n2less ;
-            res2.innerHTML = `${n1less} minus ${n2less} is equal to: <strong>[${sless}]<strong>`;
-        } // This block calculates substraction
+            res2.innerHTML = `${n1less} - ${n2less} = <strong>[${sless}]<strong>`;
+        } // Subtração
 
         function multiply(){
             var tn1multiply = window.document.querySelector('input#txtn1-multiply');
@@ -26,8 +26,8 @@
             var n1multiply = Number(tn1multiply.value);
             var n2multiply = Number(tn2multiply.value);
             var smultiply = n1multiply * n2multiply;
-            res3.innerHTML = `${n1multiply} times ${n2multiply} is equal to: <strong>[${smultiply}]<strong>`;
-        } // This block calculates multiplication
+            res3.innerHTML = `${n1multiply} x ${n2multiply} = <strong>[${smultiply}]<strong>`;
+        } // Multiplicação
 
         function divide(){
             var tn1divide = window.document.querySelector('input#txtn1-divide');
@@ -36,9 +36,9 @@
             var n1divide = Number(tn1divide.value);
             var n2divide = Number(tn2divide.value);
             var sdivide = n1divide / n2divide;
-            if (n1divide == 0 || n2divide == 0){ // This if was applied because any value divided by 0 is 0.
-                res4.innerHTML = `You cannot divide any number by 0. Try again`;
+            if (n1divide == 0 || n2divide == 0){
+                res4.innerHTML = `Você não pode dividir nenhum valor por 0. Tente novamente`;
             } else {
-            res4.innerHTML = `${n1divide} divided by ${n2divide} is equal to: <strong>[${sdivide}]<strong>`;
-            } // This block calculates division
+            res4.innerHTML = `${n1divide} ÷ ${n2divide} = <strong>[${sdivide}]<strong>`;
+            } // Divisão
         }
